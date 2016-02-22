@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Sethupathy Lab!
+tagline: UNC Medical School 
 ---
 {% include JB/setup %}
 

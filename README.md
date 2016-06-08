@@ -1,104 +1,45 @@
-<p align="center">
-    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
-</p>
+# Ed: A Jekyll Theme for Minimal Editions
 
-<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+[![Build Status](https://travis-ci.org/elotroalex/ed.svg?branch=gh-pages)](https://travis-ci.org/elotroalex/ed)
 
-***
 
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside?</a></b>
-    |
-    <b><a href="README.md#setup">Setup?</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
-    |
-    <b><a href="README.md#tests">Tests</a></b>
-    |
-    <b><a href="README.md#donate">Donate</a></b>
-    |
-    <b><a href="README.md#problems">Problems</a></b>
-</p>
+![Sample Ed screenshot](https://github.com/elotroalex/ed/blob/master/assets/screenshot.png)
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png" />
-</p>
 
-## What has inside?
 
-- [Jekyll](https://jekyllrb.com/), [Gulp](http://gulpjs.com/), [BrowserSync](https://www.browsersync.io/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
-- Tests with [Travis](https://travis-ci.org/)
-- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
-- No JS. :sunglasses:
+## Introduction
 
-## Setup
+Ed is a [Jekyll](https://jekyllrb.com/) theme designed for textual editors based on [minimal computing](http://go-dh.github.io/mincomp/) principles, and focused on legibility, durability, ease and flexibility.
 
-0. :star: to the project. :metal:
-1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-3. Edit `_config.yml` with your data.
-4. `bundle install`
-5. `npm i && npm i -g gulp`
-6. `gulp`
-7. open in your browser: `http://localhost:3000`
 
-## Settings
+One of our most pressing and ever revolving needs as scholars is to pass on our textual artifacts from one generation to another. The art of textual editing, among other practices, has helped many cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its highest form by a dwindling number of scholars. In a digital environment the problem is compounded by the difficulties of the medium. While vast repositories, and "e-publications" appear on the online scene yearly, very few manifest a textual scholar's disciplined attention to detail. In contrast, most textual scholars who have made the leap to a rigorous digital practice have focused on markup, relying on technical teams to deploy and maintain their work. This makes your average scholarly digital edition a very costly, and therefore limited affair.
 
-You must fill some informations on `_config.yml` to customize your site.
+As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and front end, and the learning curves for the user and the producer. Out of-the-box, this theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes and a bibliography without breaking the bank. In our estimate, these are the two most immediately useful type of editions for editors and readers. An edition produced with Ed consists of static pages whose rate of decay is substantially lower than database-driven systems. As an added bonus, these static pages require less bandwith. Our hope is that our approach can help beginners or veterans deploy beautiful editions with less effort, that it can help us teach a 'full stack' [in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/index.md), allow us to care for our projects at less cost, and perhaps, just perhaps, allow us to generate high-quality editions on github.io in large quantities based on the [git-lit](http://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming for you, Kindle! 
 
-```
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
-picture: 'assets/images/profile.jpg'
-...
 
-and lot of other options, like width, projects, pages, read-time, tags, relateds, animations, etc.
-```
+## Sample Ed editions.
 
-## How to:
+- [Our sample site](http://elotroalex.github.io/ed/) is the first edition built with Ed.
+- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
+- [mini lazarillo](http://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
 
-- Article: How to Install Jekyll - by [Arti Annaswamy](https://github.com/aannasw). [Part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [Part 2](http://artiannaswamy.com/build-a-github-blog-part-2)
-- [Emojis in the projects list?](https://github.com/sergiokopplin/indigo/issues/72)
-- [Nokogiri dependencie problems?](https://github.com/sergiokopplin/indigo/issues/81)
-- [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
-- [Tests with Travis CI - Tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
-- [Why Sass?](https://github.com/sergiokopplin/indigo/issues/117)
 
-#### Create posts:
 
-You can use the `initpost.sh` to create your new posts. Just follow the command:
+## Current Features
+- Templates for narrative, drama and poetry
+- Responsive design for mobile phones, tablets and PCs.
+- Relatively easy to learn and teach
+- Works well in high- or low- bandwitdh scenarios
+- Easier for digital archives and libraries to preserve
+- Open source, open access
+- Unobtrusive footnotes
+- Metadata in Dublin Core and OpenGraph to play nice with Zotero, libraries and social media.
+- Automatic table of content generation
+- Simple search functionality
+- Annotations via [hypothes.is](https://hypothes.is/)
+- Optional: Ability to generate well-formatted bibliographies and linked citations
 
-```
-./initpost.sh -c Post Title
-```
 
-The new file will be created at `_posts` with this format `date-title.md`.
+## Installing and using Ed
 
-## Tests
-
-You can test your app with:
-
-```bash
-npm run test
-# or
-bundle exec htmlproof ./_site
-````
-
-## Donate
-
-If you liked my work, buy me a coffee <3
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
-
-## Problems?
-
-Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
-
-#### Inspirations:
-- [Addy Osmani](https://addyosmani.com/)
-
----
-
-[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+To learn how to install and begin using Ed, please visit our [documentation page](http://elotroalex.github.io/ed/documentation.html).

@@ -2,6 +2,10 @@
 layout: page
 title: Sethupathy Lab!
 tagline: UNC Medical School 
+header_text: Sethupathy Lab
+permalink:/calendar/
+type: info
+calendar: true
 ---
 {% include JB/setup %}
 
@@ -10,16 +14,6 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
 
 The theme should reference these variables whenever needed.
     
@@ -43,4 +37,11 @@ Here's a sample "posts list".
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
-
+<div class="span3">
+    <h3>List of 2013 Events</h3>
+<div id="upcoming"></div><!--/span-->
+</div>
+<div class="span9">
+    <h3>Calendar of Upcoming Events</h3>
+    <iframe src="https://calendar.google.com/calendar/embed?src=cmr17p1neu6m9sfptvjvt93db0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div><!--/span-->

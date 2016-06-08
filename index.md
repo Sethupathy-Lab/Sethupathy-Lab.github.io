@@ -2,8 +2,6 @@
 layout: page
 title: Sethupathy Lab!
 tagline: UNC Medical School 
-permalink:/calendar/
-calendar: true
 ---
 {% include JB/setup %}
 
@@ -33,13 +31,3 @@ Here's a sample "posts list".
 ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-<div class="span3">
-    <h3>List of 2013 Events</h3>
-<div id="upcoming"></div><!--/span-->
-</div>
-<div class="span9">
-    <h3>Calendar of Upcoming Events</h3>
-    <iframe src="https://calendar.google.com/calendar/embed?src=cmr17p1neu6m9sfptvjvt93db0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</div><!--/span-->

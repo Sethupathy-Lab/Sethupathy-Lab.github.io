@@ -11,6 +11,16 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 ## Update Author Attributes
 
+In `_config.yml` remember to specify your own data:
+    
+    title : My Blog =)
+    
+    author :
+      name : Name Lastname
+      email : blah@email.test
+      github : username
+      twitter : username
+
 The theme should reference these variables whenever needed.
     
 ## Sample Posts
@@ -31,3 +41,6 @@ Here's a sample "posts list".
 ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+
+

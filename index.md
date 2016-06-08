@@ -2,9 +2,7 @@
 layout: page
 title: Sethupathy Lab!
 tagline: UNC Medical School 
-header_text: Sethupathy Lab
 permalink:/calendar/
-type: info
 calendar: true
 ---
 {% include JB/setup %}
